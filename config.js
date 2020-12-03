@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'matthewbordas.com',
+  siteTitle: 'Matthew Bordas',
+  siteDescription: 'Personal website of Matthew Bordas',
+  author: 'Matthew Bordas',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || '',
   pages: {
     home: '/',
     blog: 'blog',
@@ -15,14 +15,11 @@ module.exports = {
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
-    rss: '/rss.xml',
+    github: 'https://github.com/matthewbordas',
+    twitter: 'https://twitter.com/mattbordas'
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/aa3b6fd5-55c3-4860-a1d3-695855254e35',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-QKVBZH9DBR',
   tags: {
     javascript: {
       name: 'javascript',
