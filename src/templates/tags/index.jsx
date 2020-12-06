@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 /* Vendor imports */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -48,7 +47,6 @@ const TagPage = ({ data, pageContext }) => {
           </div>
           <Row gutter={[20, 20]}>
             {posts.map((post, key) => (
-            // eslint-disable-next-line react/no-array-index-key
               <Col key={key} xs={24} sm={24} md={12} lg={8}>
                 <PostCard data={post} />
               </Col>
@@ -71,12 +69,12 @@ TagPage.propTypes = {
           node: PropTypes.shape({
             name: PropTypes.string.isRequired,
             childImageSharp: PropTypes.shape({
-              fluid: PropTypes.object.isRequired,
-            }).isRequired,
-          }).isRequired,
-        }),
-      ).isRequired,
-    }).isRequired,
+              fluid: PropTypes.object.isRequired
+            }).isRequired
+          }).isRequired
+        })
+      ).isRequired
+    }).isRequired
   }).isRequired,
   pageContext: PropTypes.shape({
     tag: PropTypes.string.isRequired,

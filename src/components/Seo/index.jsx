@@ -40,11 +40,11 @@ function SEO({
         const pageUrl = Utils.resolvePageUrl(
           Config.siteUrl,
           Config.pathPrefix,
-          path,
+          path
         );
         const metaImageUrl = Utils.resolveUrl(
           Config.siteUrl,
-          imageUrl || data.file.childImageSharp.fixed.src,
+          imageUrl || data.file.childImageSharp.fixed.src
         );
 
         return (
@@ -87,10 +87,10 @@ function SEO({
                     href: Utils.resolvePageUrl(
                       Config.siteUrl,
                       Config.pathPrefix,
-                      obj.path,
+                      obj.path
                     ),
                   }))
-                  : [],
+                  : []
               )}
           />
         );
@@ -111,14 +111,14 @@ SEO.propTypes = {
     PropTypes.shape({
       hreflang: PropTypes.string.isRequired,
       path: PropTypes.string.isRequired,
-    }),
+    })
   ),
   meta: PropTypes.arrayOf(
     PropTypes.shape({
       property: PropTypes.string.isRequired,
-      content: PropTypes.string.isRequired,
-    }),
-  ),
+      content: PropTypes.string.isRequired
+    })
+  )
 };
 
 SEO.defaultProps = {

@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import {
   Layout, Row, Col,
@@ -64,11 +63,11 @@ Tags.propTypes = {
         PropTypes.shape({
           node: PropTypes.shape({
             frontmatter: PropTypes.shape({
-              tags: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-            }).isRequired,
-          }).isRequired,
-        }).isRequired,
-      ).isRequired,
+              tags: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
+            }).isRequired
+          }).isRequired
+        }).isRequired
+      ).isRequired
     }).isRequired,
     allFile: PropTypes.shape({
       edges: PropTypes.arrayOf(
@@ -76,13 +75,13 @@ Tags.propTypes = {
           node: PropTypes.shape({
             name: PropTypes.string.isRequired,
             childImageSharp: PropTypes.shape({
-              fluid: PropTypes.object.isRequired,
-            }).isRequired,
-          }).isRequired,
-        }).isRequired,
-      ).isRequired,
-    }).isRequired,
-  }).isRequired,
+              fluid: PropTypes.object.isRequired
+            }).isRequired
+          }).isRequired
+        }).isRequired
+      ).isRequired
+    }).isRequired
+  }).isRequired
 };
 
 export const query = graphql`
