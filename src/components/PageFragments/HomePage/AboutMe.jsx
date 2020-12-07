@@ -6,7 +6,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello!! My name is Matt Bordas. I'm a computational biologist focused on solving
+  paraOne: `Hello!! My name is Matt Bordas. My pronouns are he/him/his. I'm a computational biologist focused on solving
     problems related to aging. I'm currently working with the Amaral Lab (amaral.northwestern.edu) of Northwestern University 🧬 
     I'm very interested in CRISPR, mRNA, and ADCs.`,
   paraTwo: `My background is in computer science and full stack software engineering. I'm comfortable
