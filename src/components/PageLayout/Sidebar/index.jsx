@@ -20,17 +20,15 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
-          Rolwin
+          Matt
           {' '}
-          <span>Reevan</span>
+          <span>Bordas</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Computational Biologist</div>
       <div className="centerAlign box">
-        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>

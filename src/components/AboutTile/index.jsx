@@ -3,7 +3,7 @@ import style from './about.module.less';
 
 const AboutTile = (props) => {
   const {
-    img, textH4, textH3, alt, height, width,
+    img, textH4, textH3, height, width,
   } = props;
   return (
     <div className={style.aboutTile}>
@@ -12,7 +12,6 @@ const AboutTile = (props) => {
           src={`../${img}`}
           height={height || 64}
           width={width || 64}
-          alt={alt || ''}
         />
       </div>
       <div className={`textCenter ${style.mrTp26PX}`}>

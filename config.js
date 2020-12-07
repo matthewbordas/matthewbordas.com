@@ -15,6 +15,7 @@ module.exports = {
     tag: 'tags',
   },
   social: {
+    linkedin: 'https://www.linkedin.com/in/matthewbordas',
     github: 'https://github.com/matthewbordas',
     twitter: 'https://twitter.com/mattbordas'
   },
