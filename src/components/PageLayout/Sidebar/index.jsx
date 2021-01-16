@@ -40,23 +40,9 @@ const DomContent = () => (
 );
 
 const Sidebar = (props) => {
-  const [width] = useWindowSize();
   const { children } = props;
-  const { pathname } = globalHistory.location;
   let domContent = <DomContent />;
-  if (width > 997) {
-    domContent = (
-      <Affix offsetTop={0}>
-        <DomContent />
-      </Affix>
-    );
-  }
-  if (width < 768) {
-    domContent = <></>;
-    if (pathname === '/') {
-      domContent = <DomContent />;
-    }
-  }
+
   return (
     <>
       <Layout>
