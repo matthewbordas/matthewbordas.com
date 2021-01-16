@@ -14,6 +14,8 @@ module.exports = {
   social: {
     linkedin: 'https://www.linkedin.com/in/matthewbordas',
     github: 'https://github.com/matthewbordas',
-    twitter: 'https://twitter.com/mattbordas'
+    twitter: 'https://twitter.com/mattbordas',
+    email: 'mailto:bordasmatt@gmail.com?subject=Let\'s%20Chat!',
+    calendly: 'https://calendly.com/bordasmatt'
   }
 };

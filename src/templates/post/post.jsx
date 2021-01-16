@@ -35,7 +35,7 @@ const Post = ({ data }) => {
         <Header />
         <SidebarWrapper>
           <div className="marginTopTitle">
-            <h1 className={style.postTitle}>{title}</h1>
+            <h1 className="centerAlign">{title}</h1>
             <div className={style.bannerImgContainer}>
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>

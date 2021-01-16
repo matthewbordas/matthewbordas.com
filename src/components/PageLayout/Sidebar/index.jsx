@@ -3,7 +3,6 @@ import {
   Affix, Layout, Row, Col,
 } from 'antd';
 import FA from 'react-fontawesome';
-import FeatherIcon from 'feather-icons-react';
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
 import { useWindowSize } from '../../../utils/hooks';
@@ -11,7 +10,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  linkedin, github, twitter,
+  linkedin, github, twitter, email, calendly
 } = Config.social;
 
 const DomContent = () => (
@@ -30,22 +29,11 @@ const DomContent = () => (
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
+        <a href={email} target="_blank" label="button" rel="noopener noreferrer"><FA name="paper-plane" /></a>
+        <a href={calendly} target="_blank" label="button" rel="noopener noreferrer"><FA name="calendar" /></a>
       </div>
-      <ul className={`box ${style.badge} contactBlock`}>
-        <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="mail" /></span>
-          {' '}
-&nbsp; &nbsp;
-          <a
-            href="mailto:b%6fr%64%61sm&#97;tt%40gmai%6c.%63%6fm"
-            target="_top"
-          >
-            <span className={style.emailHider}>@</span>
-          </a>
-        </li>
-      </ul>
       <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Resume</a>
+        <a href="../resume.pdf" target="_blank">Resume</a>
       </div>
     </div>
   </aside>
