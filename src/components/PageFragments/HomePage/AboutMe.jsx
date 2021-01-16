@@ -47,6 +47,13 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
+            img="cuba.svg"
+            textH4="First Generation"
+            textH3="Cuban-American"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
             img="code2040.png"
             textH4="Community and Allyship"
             textH3="Code2040.org"
@@ -54,23 +61,16 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="trading.svg"
-            textH4="My Side Project"
-            textH3="Trading"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="exercise.svg"
-            textH4="My Morning Coffee"
-            textH3="Exercise"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
             img="meditation.svg"
             textH4="Inner Peace and Mindfulness"
             textH3="Meditation"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="trading.svg"
+            textH4="My Side Project"
+            textH3="Trading"
           />
         </Col>
       </Row>
