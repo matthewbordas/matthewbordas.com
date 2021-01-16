@@ -6,13 +6,10 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello!! My name is Matt Bordas. My pronouns are he/him/his. I'm a computational biologist focused on solving
-    problems related to aging. I'm currently working with the Amaral Lab (amaral.northwestern.edu) of Northwestern University 🧬 
-    I'm very interested in CRISPR, mRNA, and ADCs.`,
-  paraTwo: `My background is in computer science and full stack software engineering. I'm comfortable
-  building tools, apps, and products from the ground up, end-to-end. I'm a co-founder and was a lead 
-  engineer at Time by Ping (timebyping.com). I'm looking to bring my ability to create, lead, and execute to the biotech
-  industry.`,
+  paraOne: `Hello!! My name is Matt Bordas. My pronouns are he/him/his. I'm a computational biologist focused on solving problems related to aging. 
+  I'm currently doing research with the Amaral Lab (amaral.northwestern.edu) of Northwestern University 🧬`,
+  paraTwo: `I have a background in computer science and software engineering. 
+  I'm a co-founder and was a lead engineer at Time by Ping (timebyping.com).`,
 };
 
 const AboutMe = () => {
@@ -44,36 +41,36 @@ const AboutMe = () => {
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="comp-bio.svg"
-            textH4="Computational Biology"
-            textH3="My Work and Passion"
+            textH4="My Work and Passion"
+            textH3="Computational Biology"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="code2040.png"
-            textH4="Allyship"
-            textH3="Diversity with Code2040"
+            textH4="Community and Allyship"
+            textH3="Code2040.org"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="trading.svg"
-            textH4="Trading"
-            textH3="My Side Project"
+            textH4="My Side Project"
+            textH3="Trading"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="exercise.svg"
-            textH4="Exercise"
-            textH3="My Morning Coffee"
+            textH4="My Morning Coffee"
+            textH3="Exercise"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meditation.svg"
-            textH4="Meditation"
-            textH3="Inner Peace and Mindfulness"
+            textH4="Inner Peace and Mindfulness"
+            textH3="Meditation"
           />
         </Col>
       </Row>

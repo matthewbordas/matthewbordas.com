@@ -45,7 +45,7 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Download CV</a>
+        <a href="../resume.pdf" download target="_blank">Resume</a>
       </div>
     </div>
   </aside>
