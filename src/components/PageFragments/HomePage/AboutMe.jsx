@@ -11,7 +11,7 @@ const pageText = {
   model, and understand -omics data.`,
   paraTwo: `I have a bachelor’s in computer science and four years of industry experience in full 
   stack software engineering at a startup I co-founded (timebyping.com). I’ve worked with a myriad of technologies, obtaining proficiencies in Python, 
-  Pandas, Flask, ReactJS, NodeJS, DevOps, data analysis, cloud computing, and cloud architecture.`,
+  Pandas, Jupyter Notebooks, Flask, ReactJS, NodeJS, DevOps, data analysis, cloud computing, and cloud architecture.`,
 };
 
 const AboutMe = () => {
