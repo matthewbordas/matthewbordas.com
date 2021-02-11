@@ -4,3 +4,7 @@
 ## Built With
 - Netlify
 - Gatsby: using [this](https://www.gatsbyjs.com/starters/rolwin100/rolwinreevan_gatsby_blog/) template
+
+## Running Locally
+- Run `gatsby develop` from within the project's directory
+- Open `http://localhost:8000/` in your browser
