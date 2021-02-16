@@ -32,9 +32,6 @@ const DomContent = () => (
         <a href={email} target="_blank" label="button" rel="noopener noreferrer"><FA name="paper-plane" /></a>
         <a href={calendly} target="_blank" label="button" rel="noopener noreferrer"><FA name="calendar" /></a>
       </div>
-      <div className={style.resumeDownload}>
-        <a href="../resume.pdf" target="_blank">Resume</a>
-      </div>
     </div>
   </aside>
 );

@@ -8,8 +8,7 @@ module.exports = {
   defaultLanguage: 'en',
   pages: {
     home: '/',
-    blog: 'blog',
-    resume: 'resume'
+    blog: 'blog'
   },
   social: {
     linkedin: 'https://www.linkedin.com/in/matthewbordas',

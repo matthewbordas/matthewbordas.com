@@ -41,11 +41,6 @@ export default () => {
                 Blog
               </Link>
             </li>
-            <li className={style.navItem}>
-              <a href="../resume.pdf" onClick={toggleMenu} activeClassName={style.anchorActive} target="_blank">
-                Resume
-              </a>
-            </li>
           </ul>
         </div>
       </Layout>
