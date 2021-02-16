@@ -15,7 +15,7 @@ const pageText = {
 };
 
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = '';//`${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
   return (
     <>
       <div>
@@ -26,10 +26,10 @@ const AboutMe = () => {
           keywords={['Matt', 'Bordas', 'Computational Biology', 'Amaral Lab', 'Time by Ping', 'Python', 'NodeJS']}
         />
         <h1 className="titleSeparate">About Me</h1>
-        <p>
+        {/* <p>
           {pageText.paraOne}
         </p>
-        <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} /> */}
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
