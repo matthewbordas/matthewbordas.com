@@ -34,10 +34,10 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="golden-gate.svg"
+            img="beach.png"
             height={60}
             textH4="Currently Living In"
-            textH3="Oakland, CA"
+            textH3="Huntington Beach, CA"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
