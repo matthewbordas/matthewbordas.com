@@ -10,7 +10,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  linkedin, github, twitter, email, calendly
+  linkedin, github, twitter, email
 } = Config.social;
 
 const DomContent = () => (
@@ -24,13 +24,12 @@ const DomContent = () => (
           <span>Bordas</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Computational Biologist</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Full Stack Software Engineer</div>
       <div className="centerAlign box">
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={email} target="_blank" label="button" rel="noopener noreferrer"><FA name="paper-plane" /></a>
-        <a href={calendly} target="_blank" label="button" rel="noopener noreferrer"><FA name="calendar" /></a>
       </div>
     </div>
   </aside>

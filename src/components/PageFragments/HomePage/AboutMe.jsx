@@ -23,7 +23,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Matt', 'Bordas', 'Computational Biology', 'Amaral Lab', 'Time by Ping', 'Python', 'NodeJS']}
+          keywords={['Matt', 'Bordas', 'Full Stack', 'Software', 'Software Engineer', 'Time by Ping', 'Python', 'NodeJS']}
         />
         <h1 className="titleSeparate">About Me</h1>
         {/* <p>
@@ -42,9 +42,9 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="comp-bio.svg"
+            img="software_eng.png"
             textH4="My Work and Passion"
-            textH3="Computational Biology"
+            textH3="Building Products"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
